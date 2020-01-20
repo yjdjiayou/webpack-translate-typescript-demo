@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // "module": "commonjs",
+     "target": "es5",
+    "strict": true,
+    "noImplicitAny": false,
+    // "strictNullChecks": false
+    /* 指定 JSX 代码生成的模式: 'preserve', 'react-native', or 'react'. */
+    /* 'react' 模式下：TS 会将 tsx 编译成 jsx 后再将 jsx 编译成 js */
+    /* 'preserve' 模式下：TS 会将 tsx 编译成 jsx 后，不再将 jsx 编译成 js，保留 jsx，这个时候就需要在 ts-loader 前面配置 babel-loader 去处理 jsx */
+     "jsx": "preserve"
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

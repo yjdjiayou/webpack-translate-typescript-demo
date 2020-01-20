@@ -1,0 +1,10 @@
+.idea
+node_modules
+dist
+bower_components
+package-lock.json
+.DS_Store
+/.vscode
+
+
+

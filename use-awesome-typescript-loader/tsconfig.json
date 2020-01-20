@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": false,
+//    "strictNullChecks": false
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

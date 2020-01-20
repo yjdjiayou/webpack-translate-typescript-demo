@@ -1,0 +1,30 @@
+{
+  "name": "use-babel-preset-typescript-demo",
+  "version": "1.0.0",
+  "description": "@babel/preset-typescript 转译 TS demo",
+  "author": "yjd",
+  "license": "ISC",
+  "scripts": {
+    "dev": "cross-env NODE_ENV='development' webpack-dev-server  --config build/webpack.dev.config.js   --colors  ",
+    "type-check": "tsc --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/webpack-env": "^1.14.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^5.2.1",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "speed-measure-webpack-plugin": "^1.3.1",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
